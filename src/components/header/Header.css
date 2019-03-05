@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    background-color: #24292e;
+    color: hsla(0, 0%, 100%, .7);
+    z-index: 999;
+    height: 3rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+}
+
+header .logo-section li,
+header .link-section li {
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header .logo-section li a,
+header .link-section li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .logo-section {
+    flex: 1;
+}
+
+header .link-section {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
